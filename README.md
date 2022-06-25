@@ -1,13 +1,13 @@
-#Articles Dataset Analysis in F
+# Articles Dataset Analysis in F
 
 
-##Requirements:
+## Requirements:
 
 * Windows Visual Community Edition
 * Knowledge of F#
 * .NET development framework
 
-##About the Project:
+## About the Project:
 
 * F# project that reads in csv file that contains all data about articles such as news_id, url, publisher, title, political_bias, reliability, etc and return important metadata about the entire dataset such as number of articles published each month, average news guard score filtered by country, percentage of articles that are reliable filtered by publisher, etc.
 This project uses functional programming that utilizes recursion in order to iterate through its data structures. It has to use recursion efficiently in order to ensure that a stack overflow does not occur.
